@@ -11,6 +11,10 @@ void main(List<String> arguments)
   triplePrint('ist');
   triplePrint('langweilig');
 
+  // aufgabe 3
+  reverseInitials('Johnny', 'Depp');
+  reverseInitials('Tom', 'Cruise');
+
   // bonus 1
   convertMinutesToTime(1337);
 
@@ -34,6 +38,11 @@ void triplePrint(String bla)
   {
     print(bla);
   }
+}
+
+void reverseInitials(String name, String surname)
+{
+  print('Umgedrehte Initialen von $name $surname: ${name[name.length-1].toUpperCase()}.${surname[surname.length-1].toUpperCase()}.');
 }
 
 // bonus 1
