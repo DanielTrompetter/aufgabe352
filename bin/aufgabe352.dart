@@ -1,3 +1,4 @@
+// Alle Aufgaben in einem File markiert mit Kommentar jeweils!
 void main(List<String> arguments) 
 {
   // aufgabe 1
