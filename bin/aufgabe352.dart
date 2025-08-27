@@ -9,6 +9,9 @@ void main(List<String> arguments)
   triplePrint('Das');
   triplePrint('ist');
   triplePrint('langweilig');
+
+  // bonus
+  convertMinutesToTime(1337);
 }
 
 // aufgabe 1
@@ -24,4 +27,11 @@ void triplePrint(String bla)
   {
     print(bla);
   }
+}
+
+void convertMinutesToTime(int minutes)
+{
+  int hours = minutes ~/60;
+  int remainingMinutes = minutes % 60; // kann man auch ersetzen mit 'int remainingMinutes = minutes - hours *  60;'
+  print("$minutes Minuten sind $hours ${hours > 1 ? 'Stunden' : 'Stunde'} und $remainingMinutes Minuten");
 }
