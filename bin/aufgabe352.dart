@@ -44,7 +44,6 @@ void convertMinutesToTime(int minutes)
   print("$minutes Minuten sind $hours ${hours > 1 ? 'Stunden' : 'Stunde'} und $remainingMinutes Minuten");
 }
 
-// bonus 2
 void printGrades(List<int> grades) {
   // Gibt alle Noten nacheinander aus
   // z.B.: Note 1: 2, Note 2: 1, Note 3: 3
@@ -66,6 +65,7 @@ void calculateAndPrintAverage(List<int> grades) {
   print("Der Durchschnitt ist: ${average.toStringAsFixed(2)}");
 }
 
+// bonus 2
 void analyzeGrades(List<int> grades) {
   // Ruft beide Funktionen nacheinander auf
   printGrades(grades);
